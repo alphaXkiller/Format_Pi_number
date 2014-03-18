@@ -22,14 +22,14 @@ int main()
   
   while( input )
     {
-      if( charCount != 1)
+      if( charCount != 0)
 	{
 	  input >> ch;
 	  if( ch  >= '0' || ch <= '9' || ch == '.' )
 	    {
 	      output << ch;
 	      count++;
-	      if( count == 101 )
+	      if( count == 100 )
 		{
 		  output << endl;
 		  count = 0;
